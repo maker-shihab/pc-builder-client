@@ -34,3 +34,147 @@ body {
   font-size: 16px;
   color: #000;
 }
+/* MAIN CSS HERE */
+/* HEADER TOP CSS */
+.header_top a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 5px;
+  font-size: 0.9rem;
+  color: #000;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.header_top a svg {
+  height: 15px;
+}
+/* HEADER TOP CSS */
+/* HEADER MENU */
+.header_menu_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.main_menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+.main_menu ul li a {
+  color: #222;
+  font-weight: 600;
+  display: block;
+  font-size: 14px;
+}
+/* HEADER LOGIN SIGN UP */
+
+.login_signup {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.login_signup a {
+  display: inline-block;
+  color: #19b5bc;
+  font-size: 14px;
+  font-weight: 600;
+}
+/* HERO SECTION */
+.hero_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero_content_text {
+  text-align: center;
+}
+.hero_content_text h1 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 800;
+}
+.hero_content_text p {
+  font-size: 18px;
+  color: #fff;
+}
+/* Hero content Search Box */
+.hero_content_input_ct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero_content_input_ct input {
+  padding: 8px 10px;
+}
+/* Hero Submenu */
+.hero_submenu ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.hero_submenu ul li a {
+  color: #fff;
+  font-size: 14px;
+  transition: 0.3s all ease-in-out;
+}
+.hero_submenu ul li a:hover {
+  text-decoration: underline;
+}
+/* SECTION PLANING */
+.planing {
+  padding: 50px 0;
+}
+.planing_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.planing_single_items a svg {
+  height: 54px;
+  width: 54px;
+  display: block;
+  margin: 0 auto;
+}
+.planing_single_items a span {
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  color: #222;
+  max-width: 80%;
+  line-height: 24px;
+  margin: 0 auto;
+}
+.planing_single_items a:hover span {
+  color: #19b5bc;
+}
+/* Planing Btns */
+.planing_btns {
+  text-align: center;
+  padding-top: 30px;
+}
+.planing_btns a {
+  display: block;
+}
+.planing_btns a.planing_btn_one {
+  padding: 10px 30px;
+  background: #19b5dc;
+  display: inline-block;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+.planing_btns a.planing_btn_two {
+  color: #19b5bc;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.planing_btns a.planing_btn_two:hover {
+  text-decoration: underline;
+}
