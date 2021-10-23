@@ -75,11 +75,13 @@
                 <!-- SIGNUP NAME -->
                 <div class="signup_name">
                   <input type="text" name="signup_neme" id="signup_neme" placeholder="First and last name">
+                  <img src="assets/img/user.png" alt="user">
                 </div>
                 <!-- FORM CONTROL -->
                 <div class="form_control">
-                  <div class="email_field">
+                  <div class="email_field mr-2">
                     <input type="email" name="signup_email" id="signup_email" placeholder="Email">
+                    <img src="assets/img/envelope.png" alt="email">
                   </div>
                   <div class="pass_field">
                     <input type="password" name="sing_pass" id="sing_pass" placeholder="Password">
@@ -93,18 +95,23 @@
                   <input type="date" name="w_date" id="w_date">
                 </div>
                 <div class="wedding_checkbox">
-                  <span> I am</span>
-                  <div class="check_planing">
-                    <input type="checkbox" name="planing" id="planing">
-                    <label for="planing">Planning my wedding</label>
+                  <span>I am &nbsp; </span>
+                  <div class="check_guest form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Planning my wedding
+                    </label>
                   </div>
-                  <div class="check_guest">
-                    <input type="checkbox" name="guest" id="guest">
-                    <label for="planing">Planning my wedding</label>
+                  <span class="shape"></span>
+                  <div class="check_planing form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      Wedding guest
+                    </label>
                   </div>
                 </div>
                 <!-- WEADING TRAMS -->
-                <p>By clicking 'Sign up', I agree to WeddingWire’s <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a></p>
+                <p class="signup_tramp">By clicking 'Sign up', I agree to WeddingWire’s <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a></p>
                 <!-- WEADING SIGN UP SUBMIT -->
                 <input type="submit" class="signup_submit" value="Sign up">
                 <div class="already_signup">
