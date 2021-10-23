@@ -73,13 +73,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  column-gap: 20px;
+  column-gap: 15px;
 }
 .main_menu ul li a {
   color: #222;
   font-weight: 600;
   display: block;
-  font-size: 14px;
+  font-size: 13px;
 }
 /* HEADER LOGIN SIGN UP */
 
@@ -359,9 +359,4 @@ h3.login_form_title {
   font-size: 13px;
   color: #8c8c8c;
 }
-/* LOGIN PAGE HERE */
-/* LOGIN PAGE HERE */
-/* LOGIN PAGE HERE */
-/* LOGIN PAGE HERE */
-/* LOGIN PAGE HERE */
 /* LOGIN PAGE HERE */
