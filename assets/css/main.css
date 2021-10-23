@@ -15,7 +15,8 @@ h4,
 h5,
 h6,
 ul,
-li {
+li,
+p {
   margin: 0;
   padding: 0;
 }
@@ -25,6 +26,14 @@ li {
 a {
   text-decoration: none;
 }
+/* VARIABEL CSS HERE */
+:root {
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
+  /* COLOR VARIABEL */
+  --primary-color: #19b5bc;
+}
+/* VARIABEL CSS HERE */
 /* BODY CSS HERE */
 html {
   line-height: 1.4;
@@ -33,6 +42,8 @@ html {
 body {
   font-size: 16px;
   color: #000;
+  font-weight: 400;
+  font-family: var(--secondary-font);
 }
 /* MAIN CSS HERE */
 /* HEADER TOP CSS */
@@ -178,3 +189,179 @@ body {
 .planing_btns a.planing_btn_two:hover {
   text-decoration: underline;
 }
+/* LOGIN PAGE HERE */
+/* LOGIN PAGE HERE */
+/* LOGIN PAGE HERE */
+/* LOGIN PAGE HERE */
+/* LOGIN PAGE HERE */
+/* LOGIN PAGE HERE */
+.login_header {
+  margin-top: 30px;
+}
+.login_header .login_logo {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  width: auto;
+}
+.login_box {
+  padding: 15px;
+}
+.login_content {
+  max-width: 860px;
+  display: flex;
+  border: 1px solid #e8e8e8;
+  margin: 5px auto;
+}
+.login_content_banner {
+  width: 40%;
+  background-image: url("https://cdn1.weddingwire.com/assets/img/layer-alta/default_en-US.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.login_content_form_box {
+  padding: 60px 80px;
+  width: 60%;
+}
+h3.login_form_title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--secondary-font);
+  margin-bottom: 10px;
+  color: #222;
+}
+.login_join_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+  margin-bottom: 10px;
+}
+.login_join_btn span {
+  color: #8c8c8c;
+}
+.login_join_btn a {
+  color: var(--primary-color);
+}
+.login_buttons {
+  padding: 15px 0 30px 0;
+}
+.login_buttons a {
+  display: flex;
+  align-items: center;
+  padding: 8px 30px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  color: #222;
+  font-family: var(--secondary-font);
+  font-weight: 400;
+}
+.login_buttons a img {
+  height: 21px;
+  width: 20px;
+  margin-right: 5px;
+}
+.login_buttons a svg {
+  height: 20px;
+  margin-right: 10px;
+}
+.email_login_title {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.email_login form input {
+  font-size: 16px;
+  line-height: 24px;
+  border: 0;
+  border-bottom: 1px solid #d9d9d9;
+  outline-style: none;
+  padding: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.email_login form .forgotten-password {
+  font-size: 14px;
+  line-height: 21px;
+  color: #222;
+  padding-top: 8px;
+  float: right;
+  margin-top: -20px;
+}
+.email_login form .forgotten-password:hover {
+  color: var(--primary-color);
+}
+.email_login form input[type="submit"] {
+  background-color: var(--primary-color);
+  padding: 12px 15px;
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+.email_login form input[type="submit"]:hover {
+  background-color: #169fa5;
+}
+.vendor_login {
+  text-align: center;
+  margin-top: 15px;
+}
+.vendor_login p {
+  color: #8c8c8c;
+}
+.vendor_login a {
+  font-weight: 600;
+  color: #222;
+  margin-top: 10px;
+  display: block;
+}
+.vendor_login a:hover {
+  color: var(--primary-color);
+}
+/* LOGIN FOOTER */
+.login_footer_content {
+  text-align: center;
+  font-size: 14px;
+}
+.login_footer_content ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer_login_country li a,
+.login_footer_content li a {
+  color: #8c8c8c;
+  padding: 0 5px;
+  font-size: 13px;
+}
+.footer_login_country li a:hover,
+.login_footer_content li a:hover {
+  color: var(--primary-color);
+}
+.footer_login_country li span {
+  font-size: 13px;
+}
+.layout-auth-footer-copyright {
+  text-align: center;
+  margin-top: 10px;
+  color: #8c8c8c;
+}
+.login_footer_copyright {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 13px;
+  color: #8c8c8c;
+}
+/* LOGIN PAGE HERE */
+/* LOGIN PAGE HERE */
+/* LOGIN PAGE HERE */
+/* LOGIN PAGE HERE */
+/* LOGIN PAGE HERE */
+/* LOGIN PAGE HERE */
