@@ -201,6 +201,180 @@ body {
   justify-content: center;
 }
 /* WADDING BAGE */
+/* REAL WEDDING PAGE */
+.section_header {
+  text-align: center;
+}
+.section_title {
+  font-family: var(--primary-font);
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.section_pragrap {
+  font-size: 18px;
+  line-height: 28px;
+  color: #8c8c8c;
+  margin-bottom: 25px;
+}
+.homeSection__textSeparator {
+  content: "";
+  border-bottom: 1px solid #dcdcdc;
+  width: 100px;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+/* REAL WEDDING CP ITEMS */
+.real_box_single_item {
+  width: 265px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.11);
+}
+.box_single_sp {
+  display: flex;
+  align-items: center;
+}
+.top_thumb {
+  overflow: hidden !important;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.top_thumb img {
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+  transition: 0.4s all ease-in-out;
+}
+.box_single_sp {
+  display: flex;
+  align-items: center;
+  column-gap: 1px;
+}
+.box_single_sp a {
+  display: block;
+  overflow: hidden;
+}
+.box_single_sp a img {
+  transform: scale(1);
+  transition: 0.4s all ease-in-out;
+}
+.box_single_sp a img:hover {
+  transform: scale(1.1);
+}
+.top_thumb img:hover {
+  transform: scale(1.2);
+}
+.box_single_sp a {
+  max-height: 60px;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: block;
+}
+.box_single_sp a img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.bottom_thumb_more {
+  position: relative;
+  display: block;
+}
+.more_thumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding-top: 10px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+/* REAL WEDDING PAGE */
+/* WEDDING IDEAS */
+.wedding_ideas {
+  padding-top: 50px;
+}
+.wedding_ideas_cp_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.cp_single_item p {
+  color: #222;
+  font-size: 14px;
+}
+.cp_single_item .cp_link img {
+  border-radius: 50%;
+}
+.cp_single_item .cp_link p {
+  margin: 15px 0;
+}
+.cp_single_item .cp_link:hover p {
+  color: var(--primary-color);
+}
+.wedding_tips_items {
+  padding-top: 30px;
+}
+.wedding_tips_single_item {
+  width: 262px;
+  text-align: center;
+}
+.wedding_tips_single_item .tips_thumb {
+  overflow: hidden;
+  display: block;
+}
+.wedding_tips_single_item:hover .tips_thumb img {
+  transform: scale(1.2);
+}
+.wedding_tips_single_item .tips_thumb img {
+  height: 100%;
+  transition: 0.3s all ease-in-out;
+  width: 100%;
+  transform: scale(1);
+  border-radius: 8px;
+}
+.tips_text {
+  padding: 15px;
+  padding-bottom: 0px;
+}
+.tips_text p {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 13px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #8c8c8c;
+  display: block;
+}
+.tips_text h4 a {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #222;
+  display: block;
+  margin-top: 10px;
+  font-family: var(--primary-font);
+}
+.tips_text h4 a:hover {
+  color: var(--primary-color);
+}
+/* WEDDING IDEAS */
+/* WEDDING FORUM */
+.wedding_forum_content {
+  display: flex;
+}
+.forum_header {
+  flex: 0 0 25%;
+}
+/* WEDDING FORUM */
 /* LOGIN PAGE HERE */
 .login_header {
   margin-top: 30px;
