@@ -219,6 +219,14 @@ body {
   color: #8c8c8c;
   margin-bottom: 25px;
 }
+.section_stater_title {
+  color: #8c8c8c;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
 .homeSection__textSeparator {
   content: "";
   border-bottom: 1px solid #dcdcdc;
@@ -227,6 +235,9 @@ body {
   margin-bottom: 25px;
 }
 /* REAL WEDDING CP ITEMS */
+.real_wedding {
+  padding-bottom: 50px;
+}
 .real_box_single_item {
   width: 265px;
   border-radius: 8px;
@@ -298,7 +309,8 @@ body {
 /* REAL WEDDING PAGE */
 /* WEDDING IDEAS */
 .wedding_ideas {
-  padding-top: 50px;
+  padding: 50px 0 130px 0;
+  background: #fff;
 }
 .wedding_ideas_cp_items {
   display: flex;
@@ -368,13 +380,210 @@ body {
 }
 /* WEDDING IDEAS */
 /* WEDDING FORUM */
+.wedding_forums {
+  background: #f8f8f8;
+  padding: 90px 0 50px 0;
+}
 .wedding_forum_content {
   display: flex;
+  align-items: flex-end;
+  column-gap: 20px;
 }
 .forum_header {
-  flex: 0 0 25%;
+  flex: 0 0 26%;
+}
+.forum_profile {
+  flex: 0 0 74%;
+}
+.wedding_forum_content .section_header,
+.wedding_forum_content .section_title,
+.wedding_forum_content .bage_btn {
+  text-align: left;
+}
+.wedding_forum_content .section_title {
+  font-size: 30px;
+}
+.wedding_forum_content .section_pragrap {
+  font-size: 16px;
+}
+.wedding_forum_content .bage_btn {
+  margin-top: 15px;
+}
+.forum_single_profile {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.forum_single_profile img {
+  border-radius: 50%;
+  width: 50px;
+}
+.forum_single_details {
+  position: absolute;
+  left: 0;
+  top: -250px;
+  height: 220px;
+  width: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: #fff;
+}
+.forum_single_details h3 {
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.forum_single_details p {
+  font-size: 15px;
 }
 /* WEDDING FORUM */
+/* WEBSITE SECTION */
+.website {
+  padding: 50px 0;
+  background: #fff;
+}
+.website_single_item {
+  display: grid;
+  justify-items: center;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  padding-top: 10px;
+  height: 310px;
+  width: 370px;
+}
+.webiste_image_box .top_thumb {
+  width: 252px;
+  height: auto;
+  margin: 0 auto;
+  border: 3px solid #222;
+  border-radius: 8px;
+}
+.webiste_image_box .thumb_small {
+  position: absolute;
+  right: 20px;
+  top: 40px;
+  z-index: 99;
+  width: 96px;
+  height: auto;
+  border-radius: 8px;
+  border: 3px solid #222;
+}
+.webiste_image_box span {
+  position: absolute;
+  z-index: 99;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 100%;
+  background: #fff;
+  padding: 10px;
+  font-size: 14px;
+  color: #222;
+}
+/* WEBSITE SECTION */
+/* SHOPE SECTION */
+.shope {
+  padding: 50px 0;
+  background: #fff;
+}
+.shope_single_item {
+  text-align: center;
+  display: block;
+  width: 250px;
+}
+.shope_single_item img {
+  height: auto;
+  height: 100%;
+  width: 100%;
+}
+.shope_single_item span {
+  color: #222;
+  margin: 4px 0 15px;
+  font-size: 14px;
+}
+/* SHOPE SECTION */
+/* GALLERY SECTION */
+.gallery {
+  padding: 50px 0;
+}
+.gallery_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  margin-bottom: 40px;
+}
+.gallery_btn a {
+  border: 1px solid #d9d9d9;
+  padding: 8px 12px;
+  border-radius: 8px;
+  line-height: 24px;
+  font-size: 15px;
+  color: #222;
+}
+.gallery_btn a:hover {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+.gallery_item_box {
+  width: auto;
+  display: block;
+}
+.gallery_item_box img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.gallery__box {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.gallery__box:hover .view_cl {
+  bottom: 0;
+}
+.view_cl {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: -40px;
+  opacity: 1;
+  padding: 5px;
+  font-size: 14px;
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.6);
+}
+.gallery_name {
+  margin: 10px 0;
+  color: #222;
+  font-weight: 500;
+  display: block;
+  font-size: 15px;
+}
+.plan_header .section_pragrap {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+}
+.plan_header {
+  margin-bottom: 30px;
+}
+/* GALLERY SECTION */
 /* LOGIN PAGE HERE */
 .login_header {
   margin-top: 30px;
