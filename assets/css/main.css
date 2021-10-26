@@ -669,6 +669,104 @@ body {
   color: var(--primary-color);
 }
 /* CATERGORY SECTION */
+/* BANQUET SECTION  */
+.banquet {
+  border: 1px solid #d9d9d9;
+  border-left: none;
+  border-right: none;
+  padding: 20px 0 60px 0;
+  position: relative;
+}
+.banquet::before {
+  position: absolute;
+  content: "";
+  background-image: url(../img/banquet/bg_banquet_header_banner.jpg);
+  height: 100%;
+  width: 40%;
+  right: 0;
+  top: 0;
+  clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0% 100%);
+  background-position: center;
+  background-size: cover;
+}
+.banquet_header ul {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+.banquet_header ul > li a {
+  color: #6c6c6c;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  line-height: 1.5rem;
+  font-size: 15px;
+  position: relative;
+  font-family: var(--secondary-font);
+}
+.banquet_header ul > li a::before {
+  position: absolute;
+  content: "/";
+  left: -15px;
+}
+.banquet_header ul > li:nth-child(1) a::before {
+  position: absolute;
+  content: "";
+}
+.banquet_title {
+  font-family: var(--primary-font);
+  font-size: 2.1rem;
+  font-weight: 700;
+  grid-area: title;
+  line-height: 2.6875rem;
+  line-height: clamp(2.25rem, 1.77273rem + 1.59091vw, 3.125rem);
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.banquet_header form {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d9d9d9;
+  max-width: 630px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.banquet_header form .form_control input[type="text"] {
+  padding-left: 40px;
+}
+.banquet_header form .form_control {
+  position: relative;
+}
+.banquet_header form .form_control input {
+  padding: 15px;
+  border-right: 1px solid #d9d9d9;
+  border-bottom: none;
+  margin: 0;
+}
+.banquet_header form .form_control span,
+.banquet_header form .form_control svg {
+  position: absolute;
+  height: 15px;
+  width: 20px;
+  left: 12px;
+  top: 16px;
+  display: block;
+}
+.banquet_header form .form_control span {
+  top: 12px;
+}
+.banquet_header form .form_control input[type="submit"] {
+  background: var(--primary-color);
+  color: #fff;
+  font-weight: 600;
+  font-family: var(--secondary-font);
+  padding: 15px 20px;
+  border: 1px solid var(--primary-color);
+  outline: none;
+}
+.banquet_header form .form_control input[type="submit"]:hover {
+  background: #169fa5;
+}
+/* BANQUET SECTION  */
 /* LOGIN PAGE HERE */
 .login_header {
   margin-top: 30px;
