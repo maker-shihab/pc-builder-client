@@ -31,6 +31,14 @@ a {
 hr {
   margin: 0 !important;
 }
+/* CONTAINER SIZE CUSTOME */
+.container_ct {
+  max-width: 1360px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+}
+/* CONTAINER SIZE CUSTOME */
 /* VARIABEL CSS HERE */
 :root {
   --primary-font: "Poppins", sans-serif;
@@ -767,6 +775,96 @@ body {
   background: #169fa5;
 }
 /* BANQUET SECTION  */
+/* BANQUET CATEGORY */
+.banquet_ct {
+  padding-top: 1.5rem;
+}
+.banquet_category_modal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 10px;
+  align-items: center;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  display: -ms-flexbox;
+  min-height: 80px;
+  padding: 1rem 0.75rem;
+  position: relative;
+  position: relative;
+}
+.banquet_category_modal p {
+  font-size: 15px;
+}
+.banquet_category_modal p a.modal_link {
+  font-weight: 500;
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+.banquet_category_modal a.modal_close svg {
+  height: 15px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  fill: #8c8c8c;
+}
+.banquet_category_modal img {
+  height: 40px;
+  width: auto;
+}
+/* BANQUET MAIN ITEM */
+.banquet_ct_m_item {
+  padding-top: 40px;
+}
+.banquet_ct_m_item p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banquet_ct_m_item p span {
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.0625rem;
+  line-height: 1.3125rem;
+  text-transform: uppercase;
+}
+.banquet_ct_m_item p a {
+  color: #8c8c8c;
+  cursor: pointer;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  text-decoration: underline;
+}
+.filter_hestoryItem {
+  background-color: #f8f8f8;
+  border-radius: 0.5rem;
+  display: block;
+  margin-top: 0.65rem;
+  padding: 20px 10px;
+}
+.filter_hestoryItem li a {
+  font-size: 14px;
+  color: #8c8c8c;
+  font-weight: 400;
+  padding: 8px 15px;
+  border-radius: 25px;
+  background-color: #fff;
+  box-shadow: 0 1px 5px #00000026;
+}
+.filter_hestoryItem li a svg {
+  height: 10px;
+  width: auto;
+  margin-left: 5px;
+}
+/* Banquet Hall Results */
+.banquet_hall_result {
+  text-transform: uppercase;
+  color: #6c6c6c;
+  letter-spacing: 0.0625rem;
+  font-size: 14px;
+  font-weight: 500;
+}
+/* BANQUET CATEGORY */
 /* LOGIN PAGE HERE */
 .login_header {
   margin-top: 30px;
