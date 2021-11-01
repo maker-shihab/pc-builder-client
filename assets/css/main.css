@@ -1666,9 +1666,142 @@ h3.login_form_title {
 /* REAL WEDDING */
 /* FORUM PAGE */
 .bredcrumb {
-  padding: 15px 0;
+  padding: 0px 0;
   border-top: 1px solid #e7e7e7;
   border-bottom: 1px solid #e7e7e7;
+}
+.forumPlaning_header h2 {
+  font-family: var(--primary-font);
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 800;
+  margin: 5px 0;
+}
+.forumPlaning__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 20px;
+  padding: 20px;
+}
+.forumPlaning_profile_user,
+.forumPlaning_profile {
+  display: flex;
+}
+.forumPlaning_profile {
+  column-gap: 20px;
+}
+.forumPlaning__text p {
+  font-size: 13px;
+  line-height: 21px;
+  margin-bottom: 0;
+  color: #8c8c8c;
+}
+.forumPlaning_profile_user i,
+.forumPlaning_profile_user img {
+  width: 35px;
+  height: 35px;
+  margin-left: -12px;
+  border-radius: 50%;
+  border: 1px solid #d9d9d9;
+  line-height: 32px;
+  text-align: center;
+  background: #fff;
+  color: #d9d9d9;
+}
+.forumPlaning_menu ul {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  border-top: 1px solid #d9d9d9;
+  column-gap: 3px;
+}
+.forumPlaning_menu ul li a {
+  font-size: 14px;
+  color: #000;
+  padding: 12px 10px;
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+  font-weight: 500;
+  display: inline-block;
+}
+.forumPlaning_menu ul li a span {
+  font-weight: 400;
+  margin-left: 5px;
+  color: #8c8c8c;
+  font-size: 13px;
+}
+.forumPlaning_menu ul li a:hover {
+  border-color: #169fa5;
+  color: #169fa5;
+}
+.forumPlaning_menu ul li a.active {
+  font-weight: 600;
+  color: #000;
+  border-color: #169fa5;
+}
+.discussion-hero-content {
+  color: #8c8c8c;
+  padding: 20px;
+}
+.discusBox {
+  margin: 20px 0 30px 0;
+  border: 1px solid #d9d9d9;
+  background: #f8f8f8;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  column-gap: 15px;
+  border-radius: 8px;
+}
+.discusBox img {
+  border-radius: 50%;
+}
+.discusForm {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 10px;
+  width: 520px;
+}
+.discusForm input {
+  width: 100%;
+  padding: 15px 10px 15px 45px;
+  border: none;
+  outline: none;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+}
+.discusForm::after {
+  position: absolute;
+  content: "";
+  left: -7px;
+  top: 17px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  border: 1px solid transparent;
+  border-left-color: #d9d9d9;
+  border-bottom-color: #d9d9d9;
+}
+.discusForm i {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  height: 15px;
+  width: 15px;
+}
+.discusBox a {
+  color: #222;
+  border: 1px solid #d9d9d9;
+  padding: 14px 12px;
+  display: block;
+  font-size: 14px;
+  border-radius: 8px;
+}
+.discusBox a i {
+  padding-right: 10px;
 }
 .bredcrumb ul {
   display: flex;
@@ -1812,7 +1945,19 @@ h3.login_form_title {
 }
 /* DISCUSS AREA */
 .discussArea {
-  padding-top: 50px;
+  padding-top: 25px;
+}
+.forumPlaning {
+  border-radius: 8px;
+  border: 1px solid #d9d9d9;
+}
+.forumPlaning_header {
+  color: #fff;
+  padding: 70px 20px 15px;
+  position: relative;
+  background-color: #2b2b2b;
+  background-size: cover;
+  border-radius: 8px 8px 0 0;
 }
 .discusText_header {
   display: flex;
@@ -1829,6 +1974,7 @@ h3.login_form_title {
   padding: 12px 15px;
   border-radius: 8px;
   font-weight: 500;
+  display: block;
 }
 .discusText_header a i {
   margin-right: 5px;
@@ -2400,4 +2546,11 @@ ul.venuesBox__title {
 .chose_country_item img {
   height: 15px;
   margin-right: 5px;
+}
+.recentVideo__single,
+.recentSingle__item {
+  max-width: 200px;
+}
+.forumPlaning_header {
+  background-image: url("../img/planing/com-heading-165.jpg");
 }
