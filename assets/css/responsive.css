@@ -1,0 +1,6 @@
+@media screen and (max-width: 1200px) {
+  .main_menu,
+  .login_signup {
+    display: none;
+  }
+}

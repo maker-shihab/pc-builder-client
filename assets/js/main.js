@@ -1,37 +1,21 @@
 $( document ).ready(function() {
-  $('.planing_slide').owlCarousel({
-    loop: true,
-    margin:20,
-    nav:false,
-    dots: false,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:6
-        }
+  // MOBILE MENU
+  var menuButton = $('.menu-button'),
+      iconBtn = $('.fa-bars'),
+      mobileMenu = $('.navMenu');
+  
+  $(menuButton).click(function(){
+    
+    if( !$(this).hasClass('is-open') ) {
+      $(this).addClass('is-open');
+      $(iconBtn).addClass('fa-times');
+      $(mobileMenu).addClass('active'); 
+    } else {
+      $(this).removeClass('is-open');
+      $(mobileMenu).removeClass('active');
+      $(iconBtn).addClass('fa-bars');
+      $(iconBtn).removeClass('fa-times');
     }
-  });
-//   FORUM SLIDER
-  $('.eventSlider').owlCarousel({
-    loop: true,
-    margin:20,
-    nav:false,
-    dots: false,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:6
-        }
-    }
+    return false;
   });
 });
