@@ -1,6 +1,37 @@
 @media screen and (max-width: 1200px) {
+  .header_top,
   .main_menu,
   .login_signup {
     display: none;
+  }
+  .header_menu_content .logo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  .header__navigation {
+    width: 100%;
+    padding: 10px 0 20px 0;
+  }
+  .mobile_bars,
+  .mobile_user {
+    display: block !important;
+  }
+  .header_menu {
+    border-bottom: 1px solid #d9d9d9;
+  }
+  .mobile_header_menu {
+    display: block;
+  }
+  nav.layoutHeader__nav.app-header-nav.open {
+    visibility: visible;
+    left: 0;
+    opacity: 1;
+  }
+  .mobile_header_menu.open {
+    visibility: visible;
+    opacity: 1;
+    z-index: 99;
   }
 }

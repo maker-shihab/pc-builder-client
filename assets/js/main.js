@@ -1,21 +1,12 @@
 $( document ).ready(function() {
   // MOBILE MENU
-  var menuButton = $('.menu-button'),
-      iconBtn = $('.fa-bars'),
-      mobileMenu = $('.navMenu');
+  $('.mobile_bars').on('click', function() {
+    $(".mobile_header_menu").addClass("open");
+    $(".app-header-nav").addClass("open");
+  });
   
-  $(menuButton).click(function(){
-    
-    if( !$(this).hasClass('is-open') ) {
-      $(this).addClass('is-open');
-      $(iconBtn).addClass('fa-times');
-      $(mobileMenu).addClass('active'); 
-    } else {
-      $(this).removeClass('is-open');
-      $(mobileMenu).removeClass('active');
-      $(iconBtn).addClass('fa-bars');
-      $(iconBtn).removeClass('fa-times');
-    }
-    return false;
+  $('.mobile_times').on('click', function() {
+    $(".mobile_header_menu").removeClass("open");
+    $(".app-header-nav").removeClass("open");
   });
 });
