@@ -1,13 +1,26 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 @media screen and (max-width: 1200px) {
   .header_top,
-  .main_menu,
-  .login_signup {
+  .login_signup,
+  .main_menu {
     display: none;
   }
   .header_menu_content .logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
   }
   .header__navigation {
@@ -33,5 +46,345 @@
     visibility: visible;
     opacity: 1;
     z-index: 99;
+  }
+  .login_header .login_logo {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 45px;
+  }
+  .real_box_single_item {
+    width: 220px;
+    margin: 0 auto;
+  }
+  .wedding_tips_single_item {
+    width: 220px;
+    margin: 0 auto;
+  }
+  .forum_single_details {
+    top: -310px;
+    height: 290px;
+  }
+  .discusForm {
+    max-width: 450px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .login_header .login_logo {
+    padding: 0 15px;
+  }
+  .login_content_banner {
+    display: none;
+  }
+  .login_content,
+  .login_content_form_box {
+    width: 100%;
+  }
+  .real_box_single_item {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .hero_content {
+    background-position: center;
+    background-size: cover;
+    height: calc(100vw * (25 / 50)) !important;
+  }
+  .hero_submenu ul {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    row-gap: 15px;
+  }
+  .city_hero {
+    display: none;
+  }
+  .planing_items {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  .wedding_tips_single_item {
+    width: 300px;
+  }
+  .wedding_forum_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: inherit;
+    -ms-flex-align: inherit;
+    align-items: inherit;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .forum_profile {
+    margin-top: 290px;
+  }
+  .shope_single_item {
+    margin: 0 auto;
+  }
+  .catergory_big {
+    margin-top: 30px;
+  }
+  .whyContent {
+    row-gap: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: inherit;
+    -ms-flex-align: inherit;
+    align-items: inherit;
+  }
+  .venuesBox__title {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .app_link {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .app_link_text {
+    padding-top: 10px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    padding-bottom: 15px;
+    max-width: 350px;
+  }
+  .footer_socail ul {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .chose_country_item {
+    max-width: auto;
+    width: 100% !important;
+  }
+  .footer_copywrite {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .container_ct {
+    max-width: 1200px;
+    min-width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    display: block;
+  }
+  .venuesBox__title li a {
+    text-align: center;
+  }
+  .venuesTitle {
+    text-align: center;
+  }
+  .activeContent,
+  .userOnline__content ul {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-column-gap: 15px;
+    -moz-column-gap: 15px;
+    column-gap: 15px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .discusForm {
+    max-width: 300px;
+  }
+  .recentItem,
+  .recentVideo_item {
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .banquet::before {
+    display: none;
+  }
+  .bar__contenT {
+    row-gap: 20px;
+  }
+  .banquetHero_reviewTitle,
+  .bar__contenT {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .dn_m {
+    display: none !important;
+  }
+  .weading_vendors {
+    margin-bottom: 0 !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .login_content_form_box {
+    padding: 40px 30px;
+  }
+  .hero_content {
+    height: calc(100vw * (25 / 40)) !important;
+  }
+  .hotel_hero input {
+    width: 100%;
+  }
+  .wedding_ideas_cp_items {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+  }
+  .forum_profile {
+    margin-top: 0;
+  }
+  .forum_single_profile {
+    margin-top: 200px;
+  }
+  .forum_single_details {
+    top: -190px;
+    height: 170px;
+  }
+  .website_single_item {
+    margin: 0 auto;
+  }
+  .category_list_single_item.c_l_b_s_i {
+    margin-top: 15px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .forumPlaning_profile {
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+  }
+  .discusBtns {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .singleComment {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    row-gap: 15px;
+  }
+  .recentSingle__item,
+  .recentVideo__single {
+    max-width: 340px;
+  }
+  .recentItem,
+  .recentVideo_item {
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .banquet_header form {
+    max-width: 450px;
+  }
+  .rangle_sliderConten {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    padding-top: 15px;
+    row-gap: 20px;
+  }
+  .aboutReview_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+  }
+  .aboutReview_item {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .banquetHero_content ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .bpComment__single {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .login_content_form_box {
+    padding: 40px 30px;
+  }
+  .hero_content {
+    height: calc(100vw * (25 / 20)) !important;
+  }
+  .planing_items {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 20px 1fr;
+    grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  .wedding_bage {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    row-gap: 15px;
+    text-align: center;
+  }
+  .recentItem,
+  .recentVideo_item {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 576px) {
+  .venuesBox__title {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  ul.venuesBox__title {
+    padding-bottom: 0;
   }
 }

@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="assets/css/responsive.css" />
   </head>
 
-  <body style="background: #f8f8f8">
+  <body>
     <header>
       <!-- Header top -->
       <div class="header_top">
@@ -214,17 +214,19 @@
             </div>
             <ul class="bnqSingle_breadCamp">
               <li><a href="#">Weddings</a></li>
-              <li><a href="#">Weddings Venues</a></li>
-              <li><a href="#">Banquet Halls</a></li>
+              <li class="dn_m"><a href="#">Weddings Venues</a></li>
+              <li class="dn_m"><a href="#">Banquet Halls</a></li>
               <li><a href="#">Illinois</a></li>
-              <li><a href="#">Chicago Suburbs</a></li>
-              <li><a href="#">Willowbrook</a></li>
+              <li class="dn_m"><a href="#">Chicago Suburbs</a></li>
+              <li class="dn_m"><a href="#">Willowbrook</a></li>
               <li><a href="#">Ashton Place</a></li>
             </ul>
           </div>
           <div class="bnqSingle_header_right">
-            <span>1 out of 5,979</span>
-            <a href="#">Next<i class="fas fa-chevron-right"></i> </a>
+            <span class="dn_m">1 out of 5,979</span>
+            <a href="#" class="dn_m"
+              >Next<i class="fas fa-chevron-right"></i>
+            </a>
           </div>
         </div>
         <div class="banquetHero_content">
@@ -282,8 +284,8 @@
       <div class="bs_itemContent">
         <div class="container_ct">
           <div class="bs_itemC_area">
-            <div class="row">
-              <div class="col-md-9">
+            <div class="row gy-5">
+              <div class="col-lg-9">
                 <div class="bs_bigContent">
                   <div class="bs_mainThumb">
                     <img
@@ -479,9 +481,199 @@
                       </div>
                     </div>
                   </div>
+                  <div class="userDemo_photo">
+                    <h3 class="userDemo__title">38 USER PHOTOS</h3>
+                    <div class="userDemo__item">
+                      <div class="userDemo__itemSingle">
+                        <img src="assets/img/userDemo/1.webp" alt="user" />
+                      </div>
+                      <div class="userDemo__itemSingle">
+                        <img src="assets/img/userDemo/2.webp" alt="user" />
+                      </div>
+                      <div class="userDemo__itemSingle">
+                        <img src="assets/img/userDemo/3.webp" alt="user" />
+                      </div>
+                      <div class="userDemo__itemSingle">
+                        <img src="assets/img/userDemo/4.webp" alt="user" />
+                      </div>
+                      <div class="userDemo__itemSingle">
+                        <img src="assets/img/userDemo/5.webp" alt="user" />
+                        <div class="userDemo__text">+34</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bqComment">
+                    <div class="bpComment_header">
+                      <span>Short by:</span>
+                      <p>Rating Highest <i class="fas fa-chevron-down"></i></p>
+                    </div>
+                    <div class="bpComment__single">
+                      <div class="bp__profile__img">
+                        <img
+                          src="assets/img/comment/userProfile.webp"
+                          alt="userprfile"
+                        />
+                      </div>
+                      <div class="user_comment__text">
+                        <div class="userComment_title_text">
+                          <p><span>Christina C.</span> Married on 10/09/2021</p>
+                          <p class="userComment_rating">
+                            <span></span>5.0 <i class="fas fa-chevron-down"></i>
+                          </p>
+                        </div>
+                        <h3 class="user_commetn_text__title">
+                          Could not have imagined a better wedding venue!
+                        </h3>
+                        <p class="userComment__pragrap">
+                          We are so fortunate we were able to host our wedding
+                          at Mount Vernon in September 2021. We had originally
+                          planned for a June 2020 wedding and Nicole worked
+                          tirelessly with us to get a new date planned when the
+                          pandemic was in full-force. My husband and I do not
+                          live in Colorado and throughout the planning process,
+                          Nicole was prompt to respond to any and all questions
+                          we had. It made planning from a distance much less of
+                          a burden than I expected it to be. She also provided
+                          exceptional vendor requests for various inquiries I
+                          had regarding hair stylists in the area, shuttles,
+                          etc. We ended up having our ceremony on the Lower deck
+                          and our reception...
+                        </p>
+                        <a href="#" class="userCommetn_readMore">Read more</a>
+                        <div class="userDemo__item userDemo__item--sm">
+                          <div class="userDemo__itemSingle">
+                            <img src="assets/img/userDemo/1.webp" alt="user" />
+                          </div>
+                          <div class="userDemo__itemSingle">
+                            <img src="assets/img/userDemo/2.webp" alt="user" />
+                          </div>
+                          <div class="userDemo__itemSingle">
+                            <img src="assets/img/userDemo/3.webp" alt="user" />
+                          </div>
+                          <div class="userDemo__itemSingle">
+                            <img src="assets/img/userDemo/4.webp" alt="user" />
+                          </div>
+                        </div>
+
+                        <p class="date_userComment">Sent on 10/20/2021</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="col-md-3"></div>
+              <div class="col-lg-3">
+                <div class="banquet_single_messageVendoer">
+                  <h3 class="messageVendor__title">MESSAGE VENDOR</h3>
+                  <form action="#">
+                    <div class="form_control">
+                      <input
+                        type="text"
+                        name="First and last name"
+                        id="neme"
+                        placeholder="First and last name"
+                      />
+                      <i class="fas fa-user"></i>
+                    </div>
+                    <div class="form_control">
+                      <input
+                        type="email"
+                        name="email"
+                        id="email_en"
+                        placeholder="Email"
+                      />
+                      <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="form_control">
+                      <input
+                        type="number"
+                        name="phone"
+                        id="phone"
+                        placeholder="Phone Number"
+                      />
+                      <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="form_control">
+                      <h3 class="messageTitle_bq">Event Date</h3>
+                      <input type="date" name="e-date" id="e-date" />
+                    </div>
+                    <div class="form_control">
+                      <input
+                        type="text"
+                        name="gust"
+                        id="gust"
+                        placeholder="Gust"
+                      />
+                      <i class="fas fa-users"></i>
+                    </div>
+                    <div class="form_control">
+                      <h3 class="messageTitle_bq">Message</h3>
+                      <textarea name="message" id="message">
+Hey there! We are interested in potentially hosting our wedding at your venue. Could you send through information on your packages? Thanks!
+                    </textarea
+                      >
+                    </div>
+                    <div class="contactMethord">
+                      <h3 class="method_chat">Preferred contact method</h3>
+                      <div class="contctCheckbox">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault1"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault1"
+                          >
+                            Email
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault2"
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault2"
+                          >
+                            Video chat
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="radio"
+                            name="flexRadioDefault"
+                            id="flexRadioDefault3"
+                            checked
+                          />
+                          <label
+                            class="form-check-label"
+                            for="flexRadioDefault3"
+                          >
+                            Phone
+                          </label>
+                        </div>
+                      </div>
+                      <p class="banq_formPragrap">
+                        By clicking 'Send', I agree to WeddingWire’s
+                        <a href="#">Privacy Policy</a> and
+                        <a href="#">Terms of Use</a>
+                      </p>
+                    </div>
+                    <div class="form_submit">
+                      <input type="submit" value="Send" />
+                    </div>
+                  </form>
+                </div>
+                <div class="review_rite">
+                  <a href="#">Write a review</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
