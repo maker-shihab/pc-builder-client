@@ -228,6 +228,25 @@
   .weading_vendors {
     margin-bottom: 0 !important;
   }
+  .forumSearch {
+    padding: 40px 20px;
+  }
+  .forumReview__single {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .forumReview__singleText a {
+    width: 200px;
+  }
+  .heroArea__forum {
+    padding: 0;
+  }
+  .forumReview {
+    padding: 25px 0;
+  }
+  .forumReview__singleText {
+    padding-top: 20px;
+  }
 }
 @media screen and (max-width: 767px) {
   .login_content_form_box {
@@ -386,5 +405,8 @@
   }
   ul.venuesBox__title {
     padding-bottom: 0;
+  }
+  .logo img {
+    margin-top: -3px;
   }
 }
