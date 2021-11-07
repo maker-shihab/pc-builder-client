@@ -66,7 +66,7 @@
     height: 290px;
   }
   .discusForm {
-    max-width: 450px;
+    max-width: 440px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -247,6 +247,11 @@
   .forumReview__singleText {
     padding-top: 20px;
   }
+  .discusBox {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 20px;
+  }
 }
 @media screen and (max-width: 767px) {
   .login_content_form_box {
@@ -366,6 +371,15 @@
     flex-direction: column;
     row-gap: 30px;
   }
+  .localGroup__content ul {
+    grid-template-columns: 1fr 1fr;
+  }
+  .forumPlaning_menu {
+    overflow-x: scroll;
+  }
+  .forumPlaning_menu ul {
+    width: 650px;
+  }
 }
 @media screen and (max-width: 576px) {
   .login_content_form_box {
@@ -396,6 +410,21 @@
   .recentVideo_item {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+  }
+  .localGroup__content ul {
+    grid-template-columns: 1fr;
+  }
+  .discusText_header {
+    flex-direction: column;
+    text-align: center;
+    row-gap: 10px;
+  }
+  .recentPto_title {
+    margin-top: 10px;
+  }
+  .forumPlaning__text {
+    flex-direction: column;
+    row-gap: 30px;
   }
 }
 @media screen and (max-width: 576px) {
