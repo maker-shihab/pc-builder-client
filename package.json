@@ -1,0 +1,29 @@
+{
+  "name": "pc-builder-client",
+  "version": "1.0.0",
+  "description": "Streamline PC customization with our intuitive front-end interface. Build your dream computer effortlessly.",
+  "main": "index.js",
+  "repository": "https://github.com/maker-shihab/pc-builder-client.git",
+  "author": "Shihab <73121069+maker-shihab@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
+    "autoprefixer": "^10.4.16",
+    "eslint-config-next": "^14.0.0",
+    "framer-motion": "^10.16.4",
+    "next-auth": "^4.24.3",
+    "postcss": "^8.4.31",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.47.0",
+    "react-icons": "^4.11.0",
+    "react-rating": "^2.0.5",
+    "react-redux": "^8.1.3",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "^3.3.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0"
+  }
+}
