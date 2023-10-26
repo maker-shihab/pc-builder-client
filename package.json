@@ -6,11 +6,18 @@
   "repository": "https://github.com/maker-shihab/pc-builder-client.git",
   "author": "Shihab <73121069+maker-shihab@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "autoprefixer": "^10.4.16",
     "eslint-config-next": "^14.0.0",
     "framer-motion": "^10.16.4",
+    "next": "^14.0.0",
     "next-auth": "^4.24.3",
     "postcss": "^8.4.31",
     "react": "^18.2.0",
