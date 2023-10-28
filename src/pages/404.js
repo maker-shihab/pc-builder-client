@@ -1,6 +1,4 @@
-import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { BsArrowLeft } from "react-icons/bs";
 
 const NotFound = () => {
@@ -39,13 +37,7 @@ const NotFound = () => {
         </div>
 
         <div className="relative w-full mt-8 lg:w-1/2 lg:mt-0">
-          <Image
-            width={720}
-            height={512}
-            className=" w-full lg:h-[32rem] h-80 md:h-96 rounded-lg object-cover "
-            src="https://i.ibb.co/WKgM6Lf/arfat-rahman-17.jpg"
-            alt="Arfatur Rahman image"
-          />
+         
         </div>
       </div>
     </section>

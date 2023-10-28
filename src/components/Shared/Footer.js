@@ -5,13 +5,13 @@ const Footer = () => {
     <>
       <footer className="bg-neutral-900 text-center text-white">
         <div className="p-4 text-center">
-          © 2023 Copyright:
+          ©2023 Copyright
           <Link
             target="blank"
             className="text-whitehite"
-            href="https://arfat.xyz/"
+            href="https://pc-builder96.io/"
           >
-            Arfatur Rahman
+           &nbsp; PC-Builder96
           </Link>
         </div>
       </footer>

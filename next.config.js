@@ -5,6 +5,7 @@ const nextConfig = {
     NEXTAUTH_SECRET: "a507022cb9292b410949f7867cc2b71a",
   },
   images: {
+    domains: ['placeholder-image-url.com'],
     remotePatterns: [
       {
         protocol: "https",

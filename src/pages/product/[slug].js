@@ -31,7 +31,6 @@ const SingleProductPage = ({ data }) => {
   const commentExist = data?.reviews.some(
     (review) => review.email === session?.user?.email
   );
-  // console.log(data, commentExist);
   return (
     <>
       <Head>

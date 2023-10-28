@@ -33,7 +33,7 @@ export default HomePage;
 
 export async function getStaticProps() {
   const data = await fetch(
-    `${process.env.NEXT_PUBLIC_SERVER}/products?limit=50`
+    `http://localhost:5000/api/v1/products?limit=10`
   ).then((res) => res.json());
 
   return { props: { data: data.data }, revalidate: 60 };
